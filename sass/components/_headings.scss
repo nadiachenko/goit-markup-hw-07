@@ -1,0 +1,5 @@
+.headings {
+  @include font(36px,700,1.17);
+  color: var(--forth-text-color);
+  text-align: center;
+}

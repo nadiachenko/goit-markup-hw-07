@@ -1,0 +1,8 @@
+.hero-text {
+  @include font(44px,900,1.36);
+  color: var(--third-color);
+  text-transform: uppercase;
+  width: 696px;
+  margin: auto;
+  margin-bottom: 30px;
+}
