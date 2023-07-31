@@ -1,3 +1,4 @@
+@media screen and (min-width:480px) {
 .backdrop {
   position: fixed;
   top: 0;
@@ -18,19 +19,19 @@
   transform: translate(-50%, -50%) scale(0.7);
 }
 .modal {
-  min-width: 528px;
-  min-height: 581px;
+  min-width: 530px;
+  min-height: 609px;
   background: var(--third-color);
   box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.12), 0px 1px 1px rgba(0, 0, 0, 0.14),
     0px 2px 1px rgba(0, 0, 0, 0.2);
   border-radius: 4px;
-  position: absolute;
+ position: absolute;
   top: 50%;
   left: 50%;
   transform: translate(-50%, -50%) scale(0.8);
   transition: transform 250ms cubic-bezier(0.4, 0, 0.2, 1);
   z-index: 100;
-  padding: 40px;
+ padding: 40px;
 }
 .modal-button {
   position: absolute;
@@ -57,7 +58,10 @@
 .contact-form-description {
    @include font(20px,700,1.15);
   color: var(--forth-text-color);
+  padding-top: 20px;
+  padding-bottom: 20px;
   margin-bottom: 12px;
+
 }
 .contact-form-label-text {
   font-size: 12px;
@@ -162,4 +166,21 @@
 .accept-checkbox-link {
   color: var(--secondary-text-color);
   margin-left: 5px;
+}
+}
+@media screen and (min-width:480px) {
+
+.modal {
+  min-width: 528px;
+  min-height: 581px;
+  
+}
+.contact-form-description {
+   @include font(20px,700,1.15);
+  color: var(--forth-text-color);
+  padding-top: 0px;
+  padding-bottom: 0px;
+  margin-bottom: 12px;
+
+}
 }

@@ -1,8 +1,7 @@
-@mixin font($fs,$fw,$lh) {
+@mixin font($fs, $fw, $lh) {
   font-size: $fs;
   font-weight: $fw;
   line-height: $lh;
-
 }
 @mixin flex {
   display: flex;
