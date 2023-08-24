@@ -1,6 +1,6 @@
 .btn {
   font-family: Roboto, sans-serif;
-  @include font(16px, 700, 1.87);
+  @include font(16px,700,1.87);
   border-radius: 4px;
   border: 0px;
   letter-spacing: 0.06em;
@@ -9,6 +9,7 @@
   color: var(--third-color);
   background: var(--secondary-text-color);
   cursor: pointer;
+  
 }
 .btn__hero {
   padding: 10px 24px;
@@ -25,7 +26,7 @@
 }
 
 .btn__filters {
-  @include font(16px, 500, 1.63);
+  @include font(16px,500,1.63);
   color: var(--forth-text-color);
   text-align: center;
   background: #f5f4fa;
@@ -34,11 +35,11 @@
   transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1),
     color 250ms cubic-bezier(0.4, 0, 0.2, 1),
     box-shadow 250ms cubic-bezier(0.4, 0, 0.2, 1);
-  &:active,
-  &:hover {
-    color: var(--third-color);
-    background-color: var(--secondary-text-color);
-    box-shadow: 0px 3px 1px rgba(0, 0, 0, 0.1), 0px 1px 2px rgba(0, 0, 0, 0.08),
-      0px 2px 2px rgba(0, 0, 0, 0.12);
-  }
+    &:active,
+&:hover {
+  color: var(--third-color);
+  background-color: var(--secondary-text-color);
+  box-shadow: 0px 3px 1px rgba(0, 0, 0, 0.1), 0px 1px 2px rgba(0, 0, 0, 0.08),
+    0px 2px 2px rgba(0, 0, 0, 0.12);
+}
 }

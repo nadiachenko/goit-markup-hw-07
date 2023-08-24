@@ -1,17 +1,5 @@
-@media screen and (min-width:480px) {
-.headings {
-  @include font(28px,700,1.17);
-  color: var(--forth-text-color);
-  text-align: center;
-}
-.title {
-  margin-bottom: 30px;
- }
-}
-@media screen and (min-width:1200px) {
 .headings {
   @include font(36px,700,1.17);
   color: var(--forth-text-color);
   text-align: center;
-}
 }
