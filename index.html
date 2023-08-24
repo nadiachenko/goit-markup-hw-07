@@ -297,15 +297,26 @@
       <section class="team section">
         <div class="container">
           <h2 class="headings title">Наша команда</h2>
-          <ul class="team-list list">
+           <ul class="team-list list">
             <li class="team-item">
-              <picture>
-                <img
-                  class="team-picture"
+               <picture  >
+                <source 
+                 
                   srcset="./images/Igor.jpg 1x, ./images/Igor@2x.jpg 2x"
-                  src=""
-                  alt="photo of a man in glasses with a beard"
-              /></picture>
+                  media="(min-width: 1200px)"   
+              />
+                <source 
+                 
+                  srcset="./images/Igortablet.jpg 1x, ./images/Igortablet@2x.png 2x"
+                  media="(min-width: 768px)"   
+              />
+                <source 
+                  
+                  srcset="./images/Igormobile.jpg 1x, ./images/Igormobile@2x.png 2x"
+                  media="(min-width: 320px)"   
+              />
+                <img src="./images/Igormobile.jpg" alt="photo of a man in glasses with a beard" class="team-picture"/>  
+            </picture>
               <div class="team-text">
                 <h3 class="teammate-name">Ігор Дем'яненко</h3>
                 <p class="teammate-description">Product Designer</p>
@@ -340,13 +351,24 @@
               </div>
             </li>
             <li class="team-item">
-              <picture>
-                <img
-                  class="team-picture"
+              <picture  >
+                <source 
+                 
                   srcset="./images/Olga.jpg 1x, ./images/Olga@2x.jpg 2x"
-                  src=""
-                  alt="photo of a smilling woman in glasses"
-              /></picture>
+                  media="(min-width: 1200px)"   
+              />
+                <source 
+                 
+                  srcset="./images/Olgatablet.jpg 1x, ./images/Olgatablet@2x.png 2x"
+                  media="(min-width: 768px)"   
+              />
+                <source 
+                  
+                  srcset="./images/Olgamobile.jpg 1x, ./images/Olgamobile@2x.png 2x"
+                  media="(min-width: 320px)"   
+              />
+                <img src="./images/Olgamobile.jpg" alt="photo of a man in glasses with a beard" class="team-picture"/>  
+            </picture>
               <div class="team-text">
                 <h3 class="teammate-name">Ольга Рєпіна</h3>
                 <p class="teammate-description">Frontend Developer</p>
@@ -380,14 +402,25 @@
                 </ul>
               </div>
             </li>
-            <li class="team-item">
-              <picture>
-                <img
-                  class="team-picture"
+             <li class="team-item">
+              <picture  >
+                <source class="team-picture"
+                 
                   srcset="./images/Mykola.jpg 1x, ./images/Mykola@2x.jpg 2x"
-                  src=""
-                  alt="photo of a smiling man"
-              /></picture>
+                  media="(min-width: 1200px)"   
+              />
+                <source class="team-picture"
+                 
+                  srcset="./images/Mykolatablet.jpg 1x, ./images/Mykolatablet@2x.png 2x"
+                  media="(min-width: 768px)"   
+              />
+                <source class="team-picture"
+                  
+                  srcset="./images/Mykolamobile.jpg 1x, ./images/Mykolamobile@2x.png 2x"
+                  media="(min-width: 320px)"   
+              />
+                <img src="./images/Mykolamobile.jpg" alt="photo of a man in glasses with a beard" class="team-picture"/>  
+            </picture>
               <div class="team-text">
                 <h3 class="teammate-name">Микола Тарасов</h3>
                 <p class="teammate-description">Marketing</p>
@@ -422,12 +455,24 @@
               </div>
             </li>
             <li class="team-item">
-              <img
-                class="team-picture"
-                srcset="./images/Mykhailo.jpg 1x, ./images/Mykhailo@2x.jpg 2x"
-                src=""
-                alt="photo of a smiling man in glasses with a beard"
+              <picture  >
+                <source class="team-picture"
+                 
+                  srcset="./images/Mykhailo.jpg 1x, ./images/Mykhailo@2x.jpg 2x"
+                  media="(min-width: 1200px)"   
               />
+                <source class="team-picture"
+                 
+                  srcset="./images/Mykhailotablet.jpg 1x, ./images/Mykhailotablet@2x.png 2x"
+                  media="(min-width: 768px)"   
+              />
+                <source class="team-picture"
+                  
+                  srcset="./images/Mykhailomobile.jpg 1x, ./images/Mykhailomobile@2x.png 2x"
+                  media="(min-width: 320px)"   
+              />
+                <img src="./images/Mykhailomobile.jpg" alt="photo of a man in glasses with a beard" class="team-picture"/>  
+            </picture>
               <div class="team-text">
                 <h3 class="teammate-name">Михайло Єрмаков</h3>
                 <p class="teammate-description">UI Designer</p>
@@ -458,7 +503,7 @@
                         <use href="./images/icons.svg#icon-linkedin"></use></svg
                     ></a>
                   </li>
-                </ul>
+                </ul> 
               </div>
             </li>
           </ul>
